@@ -1,12 +1,12 @@
 {
   "expo": {
-    "name": "AdsAPP",
-    "slug": "AdsAPP",
+    "name": "OnYou",
+    "slug": "OnYou",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/icon1.png",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/logo.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -17,13 +17,16 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.yadbib.onyou",
+      "buildNumber": "1.0.0"
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/icon1.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.yadbib.onyou"
     },
     "web": {
       "favicon": "./assets/favicon.png"
